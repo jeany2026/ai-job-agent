@@ -1,0 +1,56 @@
+---
+description: LLM-only semantic understanding; no heuristic fallback; GLM-4-Flash via OpenAICompatibleProvider
+alwaysApply: true
+---
+
+# LLM semantic red lines
+
+This is a Job Search / Resume Matching Agent. Semantic work must use a real LLM. Prefer failing over guessing.
+
+## Must use real LLM
+
+NLU, intent, extraction, JD/resume understanding, transferable skills, knowledge gaps, page-action semantics, matching, recommend/not recommend. Production must call the shared provider. Never replace this with heuristic, keywords, regex, synonym lists, copy mapping, `in` checks, word families, or rule priority.
+
+Tools in this class: `analyze_job`, `analyze_candidate`, `interpret_job_actions`, `match_job`.
+
+## No heuristic fallback
+
+LLM unavailable, timeout, bad JSON, missing model, API error, illegal intent → return `llm_unavailable` / `llm_error` / `analysis_failed`. Never: LLM fail → heuristic / keyword / regex / `classify_action_semantically()`.
+
+Historical `HeuristicActionInterpreter`, `classify_action_semantically`, `HeuristicJobAnalyzer` are not production. Do not auto-call them on bad LLM output. Prefer delete; if kept, tests only as an explicit mock (prefer a Mock LLM that returns JSON, not a keyword classifier).
+
+## Code vs LLM
+
+Code may: validate, parse JSON, schema check, clean/dedupe/sort, HTTP, browser extract, CRUD, state machine, numeric rules, compose **already-structured** LLM fields (e.g. intents → `application_evidence`).
+
+Code may not guess what text, buttons, JDs, or skills *mean*.
+
+```python
+# BAD
+if "简历" in text: intent = "apply_resume"
+
+# GOOD
+intent = llm_json["semantic_intent"]
+if intent not in ALLOWED:
+    intent = "unknown"  # or fail the analysis; do not keyword-guess
+```
+
+## Default LLM (do not change without asking)
+
+Zhipu GLM-4-Flash → existing `OpenAICompatibleProvider` only. Env only:
+
+- `LLM_BASE_URL=https://open.bigmodel.cn/api/paas/v4`
+- `LLM_MODEL=glm-4-flash-250414`
+- `LLM_API_KEY` = local environment only; never commit the key
+
+Do not use Ollama (`127.0.0.1:11434`). No new SDK, no per-tool client, no hardcoded API key. If output is unstable: fix prompt/context/schema/retry/model — not keywords.
+
+## Scope
+
+Change only what the current task needs. Do not refactor Tool Registry, swap providers, add LangChain, change BOSS browse, add 猎聘/51Job, tracker, or auto-apply unless asked.
+
+## Tests
+
+Mock LLM = test double, not production fallback. Cover: good LLM JSON, illegal JSON, unavailable, timeout, unknown intent; none of these may enter heuristic. Production path must be Tool → `OpenAICompatibleProvider` → GLM-4-Flash → schema → output.
+
+Before semantic edits, self-check: real LLM? any fallback/keywords? unified provider? If conflict, report; do not patch with heuristic.

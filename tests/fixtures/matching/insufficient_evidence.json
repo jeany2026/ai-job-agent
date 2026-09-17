@@ -1,0 +1,30 @@
+{
+  "hard_requirements_met": null,
+  "hard_requirement_gaps": [
+    {
+      "requirement": "无法从现有画像判断硬性条件",
+      "status": "unknown",
+      "notes": "双方 Profile 有效证据不足",
+      "evidence": []
+    }
+  ],
+  "capability_assessments": [
+    {
+      "dimension": "岗位核心能力",
+      "outcome": "insufficient_evidence",
+      "job_requirement_ref": null,
+      "candidate_capability_ref": null,
+      "transfer_rationale": null,
+      "evidence": []
+    }
+  ],
+  "business_fit": "unknown",
+  "technical_fit": "unknown",
+  "industry_fit": "unknown",
+  "overall_fit": "unknown",
+  "risks": [],
+  "knowledge_gaps": [],
+  "recommendation": "insufficient_evidence",
+  "rationale": "CandidateProfile 与 JobProfile 均缺少足够结构化证据，无法判断是否适合该岗位。",
+  "evidence_summary": []
+}

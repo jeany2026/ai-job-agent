@@ -1,0 +1,74 @@
+{
+  "hard_requirements_met": false,
+  "hard_requirement_gaps": [
+    {
+      "requirement": "必须持有执业药师资格证",
+      "status": "fail",
+      "notes": "候选人画像未出现该证书",
+      "evidence": [
+        {
+          "quote": "必须持有执业药师资格证",
+          "location_hint": "hard_requirements",
+          "field": "hard_requirement_gaps"
+        }
+      ]
+    }
+  ],
+  "capability_assessments": [
+    {
+      "dimension": "执业药师资格证",
+      "outcome": "missing",
+      "job_requirement_ref": "必须持有执业药师资格证",
+      "candidate_capability_ref": null,
+      "transfer_rationale": null,
+      "evidence": [
+        {
+          "quote": "必须持有执业药师资格证",
+          "location_hint": "hard_requirements",
+          "field": "capability_assessments"
+        }
+      ]
+    }
+  ],
+  "business_fit": "weak",
+  "technical_fit": "none",
+  "industry_fit": "none",
+  "overall_fit": "weak",
+  "risks": [
+    {
+      "risk": "硬性证书缺失，无法满足准入",
+      "severity": "high",
+      "notes": null,
+      "evidence": [
+        {
+          "quote": "必须持有执业药师资格证",
+          "location_hint": "hard_requirements",
+          "field": "risks"
+        }
+      ]
+    }
+  ],
+  "knowledge_gaps": [
+    {
+      "gap": "执业药师资格证",
+      "severity": "high",
+      "evidence": [
+        {
+          "quote": "必须持有执业药师资格证",
+          "location_hint": "hard_requirements",
+          "field": "knowledge_gaps"
+        }
+      ],
+      "notes": "硬性要求，无迁移路径"
+    }
+  ],
+  "recommendation": "no",
+  "rationale": "岗位硬性要求执业药师资格证，候选人画像中不具备该证书且无可迁移替代，因此不推荐。",
+  "evidence_summary": [
+    {
+      "quote": "必须持有执业药师资格证",
+      "location_hint": "hard_requirements",
+      "field": "evidence_summary"
+    }
+  ]
+}

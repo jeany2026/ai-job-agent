@@ -1,0 +1,14 @@
+{
+  "platform": "boss",
+  "job_id": "123456",
+  "job_url": "https://www.zhipin.com/job_detail/xxx.html",
+  "job_title": "高级产品经理",
+  "company_name": "某科技公司",
+  "city": "深圳",
+  "salary": "25-40K",
+  "experience": "3-5年",
+  "education": "本科",
+  "job_description": "负责平台产品规划，推动支付、清分、结算等业务建设。",
+  "requirements": "本科及以上学历，5年以上产品经验。必须具备产品规划能力。熟悉支付业务。有CRM经验优先。有医疗行业经验优先。",
+  "benefits": null
+}

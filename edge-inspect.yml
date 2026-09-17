@@ -1,0 +1,25 @@
+- generic [ref=f12e2]:
+  - generic [ref=f12e3]:
+    - heading "DevTools" [level=1] [ref=f12e4]
+    - button "Devices" [ref=f12e6] [cursor=pointer]
+    - button "Pages" [ref=f12e8] [cursor=pointer]
+    - button "Extensions" [ref=f12e10] [cursor=pointer]
+    - button "Apps" [ref=f12e12] [cursor=pointer]
+    - button "Shared workers" [ref=f12e14] [cursor=pointer]
+    - button "Service workers" [ref=f12e16] [cursor=pointer]
+    - button "Shared storage worklets" [ref=f12e18] [cursor=pointer]
+    - button "Remote debugging" [ref=f12e20] [cursor=pointer]
+    - button "Other" [ref=f12e22] [cursor=pointer]
+  - generic [ref=f12e24]:
+    - heading "Remote debugging" [level=2] [ref=f12e25]
+    - generic [ref=f12e27]:
+      - checkbox "Allow remote debugging for this browser instance" [checked] [ref=f12e28]
+      - generic [ref=f12e29]: Allow remote debugging for this browser instance
+    - paragraph [ref=f12e30]: Turning on this setting allows external apps to request full control of this browser. This includes read access to your saved data, cookies and site data, and the ability to navigate to any URL.
+    - paragraph [ref=f12e31]: Only web developers should turn on this feature, and only use it with trusted apps.
+    - generic [ref=f12e32]:
+      - text: "Server running at:"
+      - code [ref=f12e33]: 127.0.0.1:9222
+    - paragraph [ref=f12e34]:
+      - link "Learn about connecting to Chrome DevTools MCP" [ref=f12e35] [cursor=pointer]:
+        - /url: https://permanently-removed.invalid/blog/chrome-devtools-mcp-debug-your-browser-session

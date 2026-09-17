@@ -1,0 +1,354 @@
+- generic [ref=f5e1]:
+  - generic [ref=f5e2]:
+    - generic [ref=f5e3]:
+      - generic [ref=f5e4]:
+        - link "BOSS直聘" [ref=f5e6] [cursor=pointer]:
+          - /url: https://www.zhipin.com/
+        - list [ref=f5e8]:
+          - listitem [ref=f5e9]:
+            - link "首页" [ref=f5e10] [cursor=pointer]:
+              - /url: https://www.zhipin.com/shenzhen/
+          - listitem [ref=f5e11]:
+            - link "职位" [ref=f5e12] [cursor=pointer]:
+              - /url: https://www.zhipin.com/web/geek/jobs
+          - list [ref=f5e13]:
+            - listitem [ref=f5e14]:
+              - link "公司" [ref=f5e15] [cursor=pointer]:
+                - /url: https://www.zhipin.com/gongsi/
+          - list [ref=f5e16]:
+            - listitem [ref=f5e17]:
+              - link "校园" [ref=f5e18] [cursor=pointer]:
+                - /url: https://www.zhipin.com/school/
+            - listitem [ref=f5e20]:
+              - link "海归" [ref=f5e21] [cursor=pointer]:
+                - /url: https://www.zhipin.com/returnee_jobs/
+          - listitem [ref=f5e22]:
+            - link "APP" [ref=f5e23] [cursor=pointer]:
+              - /url: https://app.zhipin.com/
+          - listitem [ref=f5e24]:
+            - link "有了" [ref=f5e25] [cursor=pointer]:
+              - /url: https://youle.zhipin.com/recommend/selected/
+          - listitem [ref=f5e26]:
+            - link "海外" [ref=f5e27] [cursor=pointer]:
+              - /url: https://www.zhipin.com/overseas/
+          - listitem [ref=f5e28]:
+            - link "无障碍专区" [ref=f5e29] [cursor=pointer]:
+              - /url: https://www.zhipin.com/accessible_job/
+        - list [ref=f5e31]:
+          - listitem [ref=f5e32]:
+            - link "消息 1" [ref=f5e33] [cursor=pointer]:
+              - /url: https://www.zhipin.com/web/geek/chat
+              - text: 消息
+              - generic [ref=f5e34]: "1"
+          - generic [ref=f5e35]:
+            - listitem [ref=f5e36]:
+              - link "简历 new" [ref=f5e37] [cursor=pointer]:
+                - /url: https://www.zhipin.com/web/geek/resume
+                - text: 简历
+                - generic [ref=f5e38]: new
+            - text: 解析成功
+          - listitem [ref=f5e39]:
+            - link "鲍玲俐" [ref=f5e40] [cursor=pointer]:
+              - /url: https://www.zhipin.com/web/geek/recommend
+      - text: 
+    - generic [ref=f5e42]:
+      - generic [ref=f5e44]:
+        - generic [ref=f5e45]:
+          - link "推荐" [ref=f5e46] [cursor=pointer]:
+            - /url: javascript:;
+          - generic [ref=f5e48]:
+            - link "需求分析工程师(深圳)" [ref=f5e49] [cursor=pointer]:
+              - /url: javascript:;
+            - link "数据产品经理(深圳)" [ref=f5e51] [cursor=pointer]:
+              - /url: javascript:;
+            - link "产品经理(深圳)" [ref=f5e53] [cursor=pointer]:
+              - /url: javascript:;
+          - link [ref=f5e55] [cursor=pointer]:
+            - /url: javascript:;
+        - generic [ref=f5e63]:
+          - textbox "搜索职位、公司" [ref=f5e65]: 高级产品经理
+          - link "地图" [ref=f5e66] [cursor=pointer]:
+            - /url: javascript:;
+          - link "搜索" [ref=f5e67] [cursor=pointer]:
+            - /url: javascript:;
+      - generic [ref=f5e69]:
+        - generic [ref=f5e70] [cursor=pointer]:
+          - generic [ref=f5e71]: 
+          - generic [ref=f5e72]: 深圳
+        - generic [ref=f5e73] [cursor=pointer]: 工作区域
+        - generic [ref=f5e75]: 职位类型
+        - generic [ref=f5e78]: 求职类型
+        - generic [ref=f5e81]: 薪资待遇
+        - generic [ref=f5e84]: 工作经验
+        - generic [ref=f5e87]: 学历要求
+        - generic [ref=f5e90]: 公司行业
+        - generic [ref=f5e93]: 公司规模
+        - generic [ref=f5e96]: 融资阶段
+        - link "清空" [ref=f5e99] [cursor=pointer]:
+          - /url: javascript:;
+      - generic [ref=f5e102]:
+        - list [ref=f5e104]:
+          - listitem [ref=f5e107] [cursor=pointer]:
+            - generic [ref=f5e108]:
+              - generic [ref=f5e109]:
+                - link "高级金融产品经理" [ref=f5e110]:
+                  - /url: /job_detail/a2b3ad375d774f8a0nJ93Ni-GFtV.html
+                - generic [ref=f5e111]: -K
+              - list [ref=f5e112]:
+                - listitem [ref=f5e113]: 3-5年
+                - listitem [ref=f5e114]: 本科
+            - generic [ref=f5e115]:
+              - link "深圳市达耀科技" [ref=f5e116]:
+                - /url: /gongsi/4ec7d276b2a6e0ce03Z92tq6Fls~.html?from=top-card
+              - generic [ref=f5e121]: 深圳·福田区·上步
+          - listitem [ref=f5e124] [cursor=pointer]:
+            - generic [ref=f5e125]:
+              - generic [ref=f5e126]:
+                - link "产品经理(J10213)" [ref=f5e127]:
+                  - /url: /job_detail/83e043bce53ea3730nV72Nq5EFZT.html
+                - generic [ref=f5e128]: -K
+              - list [ref=f5e129]:
+                - listitem [ref=f5e130]: 10年以上
+                - listitem [ref=f5e131]: 本科
+            - generic [ref=f5e132]:
+              - link "深圳市恒运昌真空技术" [ref=f5e133]:
+                - /url: /gongsi/fb2edfa11a9f5f211HZ52d28FFY~.html?from=top-card
+              - generic [ref=f5e137]: 深圳·宝安区·西乡
+          - listitem [ref=f5e140] [cursor=pointer]:
+            - generic [ref=f5e141]:
+              - generic [ref=f5e142]:
+                - link "海运产品经理/海运市场经理（华北区）" [ref=f5e143]:
+                  - /url: /job_detail/9fb896ca85683bbb0nB_2tm-EVRW.html
+                - generic [ref=f5e144]: -K
+              - list [ref=f5e145]:
+                - listitem [ref=f5e146]: 10年以上
+                - listitem [ref=f5e147]: 本科
+            - generic [ref=f5e148]:
+              - link "深圳柏域斯浩航跨..." [ref=f5e149]:
+                - /url: /gongsi/2718a78a6fdb2f2e1Hd52924GVE~.html?from=top-card
+              - generic [ref=f5e154]: 深圳·罗湖区·东门
+          - listitem [ref=f5e157] [cursor=pointer]:
+            - generic [ref=f5e158]:
+              - generic [ref=f5e159]:
+                - link "产品经理/高级产品经理" [ref=f5e160]:
+                  - /url: /job_detail/9d2b78b85120e24f03J93du_ElVR.html
+                - generic [ref=f5e161]: -K·薪
+              - list [ref=f5e162]:
+                - listitem [ref=f5e163]: 3-5年
+                - listitem [ref=f5e164]: 本科
+            - generic [ref=f5e165]:
+              - link "北京及至奇点科技" [ref=f5e166]:
+                - /url: /gongsi/647f1f4c8b5f273103R93N-_EFI~.html?from=top-card
+              - generic [ref=f5e170]: 深圳·南山区·科技园
+          - listitem [ref=f5e173] [cursor=pointer]:
+            - generic [ref=f5e174]:
+              - generic [ref=f5e175]:
+                - link "高级产品经理（CRM方向）" [ref=f5e176]:
+                  - /url: /job_detail/a688f2d69827fa0c0nF939i4E1JY.html
+                - generic [ref=f5e177]: -K
+              - list [ref=f5e178]:
+                - listitem [ref=f5e179]: 3-5年
+                - listitem [ref=f5e180]: 本科
+            - generic [ref=f5e181]:
+              - link "富途" [ref=f5e182]:
+                - /url: /gongsi/c00c2c9cbeac770f1nx-0t4~.html?from=top-card
+              - generic [ref=f5e187]: 深圳·南山区·科技园
+          - listitem [ref=f5e190] [cursor=pointer]:
+            - generic [ref=f5e191]:
+              - generic [ref=f5e192]:
+                - link "商家高级产品经理" [ref=f5e193]:
+                  - /url: /job_detail/b9729322370ce2d81Hx90tq0GFFU.html
+                - generic [ref=f5e194]: -K
+              - list [ref=f5e195]:
+                - listitem [ref=f5e196]: 3-5年
+                - listitem [ref=f5e197]: 本科
+            - generic [ref=f5e198]:
+              - link "深圳恪瑞管理咨询" [ref=f5e199]:
+                - /url: /gongsi/9635da8b4bb432461HZ_3Nq9E1Y~.html?from=top-card
+              - generic [ref=f5e204]: 深圳·南山区·科技园
+          - listitem [ref=f5e207] [cursor=pointer]:
+            - generic [ref=f5e208]:
+              - generic [ref=f5e209]:
+                - link "高级产品经理（大件家具）" [ref=f5e210]:
+                  - /url: /job_detail/da642ca4a442b7ee03N-3dq-GVtX.html
+                - generic [ref=f5e211]: -K·薪
+              - list [ref=f5e212]:
+                - listitem [ref=f5e213]: 5-10年
+                - listitem [ref=f5e214]: 大专
+            - generic [ref=f5e215]:
+              - link "通拓科技" [ref=f5e216]:
+                - /url: /gongsi/d4101bc59a3b25741XN729y4.html?from=top-card
+              - generic [ref=f5e221]: 深圳·龙岗区·坂田
+          - listitem [ref=f5e224] [cursor=pointer]:
+            - generic [ref=f5e225]:
+              - generic [ref=f5e226]:
+                - link "高级产品经理 (Web3 钱包方向) (深圳)" [ref=f5e227]:
+                  - /url: /job_detail/f15c2a484e81cda80nJ62ti-EVBQ.html
+                - generic [ref=f5e228]: -K
+              - list [ref=f5e229]:
+                - listitem [ref=f5e230]: 5-10年
+                - listitem [ref=f5e231]: 学历不限
+            - generic [ref=f5e232]:
+              - link "领创集团" [ref=f5e233]:
+                - /url: /gongsi/bcd6eb16d58cbb081XRy2tq5Elo~.html?from=top-card
+              - generic [ref=f5e238]: 深圳·南山区·科技园
+          - listitem [ref=f5e241] [cursor=pointer]:
+            - generic [ref=f5e242]:
+              - generic [ref=f5e243]:
+                - link "高级产品经理（平台产品）" [ref=f5e244]:
+                  - /url: /job_detail/2e08c2762598e9ba0nR539-_ElpS.html
+                - generic [ref=f5e245]: -K·薪
+              - list [ref=f5e246]:
+                - listitem [ref=f5e247]: 3-5年
+                - listitem [ref=f5e248]: 本科
+            - generic [ref=f5e249]:
+              - link "PKFARE比客" [ref=f5e250]:
+                - /url: /gongsi/92281b27ec5d09190Xx439y5.html?from=top-card
+              - generic [ref=f5e255]: 深圳
+          - listitem [ref=f5e258] [cursor=pointer]:
+            - generic [ref=f5e259]:
+              - generic [ref=f5e260]:
+                - link "高级产品规划经理 (MJ005190)" [ref=f5e261]:
+                  - /url: /job_detail/2555474a9f506d260nN62968FVVU.html
+                - generic [ref=f5e262]: -K·薪
+              - list [ref=f5e263]:
+                - listitem [ref=f5e264]: 经验不限
+                - listitem [ref=f5e265]: 学历不限
+            - generic [ref=f5e266]:
+              - link "大疆创新" [ref=f5e267]:
+                - /url: /gongsi/05457bddad04a8e61nxy3tu7.html?from=top-card
+              - generic [ref=f5e272]: 深圳·南山区·科技园
+          - listitem [ref=f5e275] [cursor=pointer]:
+            - generic [ref=f5e276]:
+              - generic [ref=f5e277]:
+                - link "高级产品经理【晋升通道明确】" [ref=f5e278]:
+                  - /url: /job_detail/4b9c1d86ab3c38720nN53t24EVZT.html
+                - generic [ref=f5e279]: -K
+              - list [ref=f5e280]:
+                - listitem [ref=f5e281]: 3-5年
+                - listitem [ref=f5e282]: 大专
+            - generic [ref=f5e283]:
+              - link "闪魔" [ref=f5e284]:
+                - /url: /gongsi/d3e85d7b51456ff71Hd73dW4EFE~.html?from=top-card
+              - generic [ref=f5e288]: 深圳·龙岗区·坂田
+          - listitem [ref=f5e291] [cursor=pointer]:
+            - generic [ref=f5e292]:
+              - generic [ref=f5e293]:
+                - link "高级产品经理" [ref=f5e294]:
+                  - /url: /job_detail/20e79bea6d51f78f0nB50t6_FlFS.html
+                - generic [ref=f5e295]: -K·薪
+              - list [ref=f5e296]:
+                - listitem [ref=f5e297]: 经验不限
+                - listitem [ref=f5e298]: 本科
+            - generic [ref=f5e299]:
+              - link "深圳市菲森影像科技" [ref=f5e300]:
+                - /url: /gongsi/12888d999dec17a41H192NW7GFs~.html?from=top-card
+              - generic [ref=f5e305]: 深圳·南山区·大学城
+          - listitem [ref=f5e308] [cursor=pointer]:
+            - generic [ref=f5e309]:
+              - generic [ref=f5e310]:
+                - link "跨境电商高级产品经理/总监-大件产品-双休" [ref=f5e311]:
+                  - /url: /job_detail/f0e5463f842607bd0nJz2tu9FFpR.html
+                - generic [ref=f5e312]: -K
+              - list [ref=f5e313]:
+                - listitem [ref=f5e314]: 5-10年
+                - listitem [ref=f5e315]: 大专
+            - generic [ref=f5e316]:
+              - link "汇聚成林" [ref=f5e317]:
+                - /url: /gongsi/3a22f0ee0055b8ed1nF-3d-5FVs~.html?from=top-card
+              - generic [ref=f5e322]: 深圳·龙岗区·坂田
+          - listitem [ref=f5e325] [cursor=pointer]:
+            - generic [ref=f5e326]:
+              - generic [ref=f5e327]:
+                - link "高级产品经理" [ref=f5e328]:
+                  - /url: /job_detail/8f97ac8fdb9cc5ab0nV53Nq0FVNR.html
+                - generic [ref=f5e329]: -K·薪
+              - list [ref=f5e330]:
+                - listitem [ref=f5e331]: 5-10年
+                - listitem [ref=f5e332]: 本科
+            - generic [ref=f5e333]:
+              - link "特鹏网络" [ref=f5e334]:
+                - /url: /gongsi/88e34006108888733nB92NW5.html?from=top-card
+              - generic [ref=f5e339]: 深圳·宝安区·新安
+          - listitem [ref=f5e342] [cursor=pointer]:
+            - generic [ref=f5e343]:
+              - generic [ref=f5e344]:
+                - link "高级产品经理 (智慧园区)" [ref=f5e345]:
+                  - /url: /job_detail/ccb329d7c04d625d1HB42NS8FlJZ.html
+                - generic [ref=f5e346]: -K·薪
+              - list [ref=f5e347]:
+                - listitem [ref=f5e348]: 5-10年
+                - listitem [ref=f5e349]: 本科
+            - generic [ref=f5e350]:
+              - link "工业富联" [ref=f5e351]:
+                - /url: /gongsi/e64baa8a7bed4c0a1XR-3Ny5Flo~.html?from=top-card
+              - generic [ref=f5e356]: 深圳·龙华区·民治
+        - generic [ref=f5e357]:
+          - generic [ref=f5e411]:
+            - generic [ref=f5e412]: 求职工具
+            - generic [ref=f5e413]:
+              - link [ref=f5e415] [cursor=pointer]:
+                - /url: https://cv.zhipin.com/job/
+              - generic [ref=f5e416] [cursor=pointer]:
+                - generic [ref=f5e417]: 升级VIP
+                - generic [ref=f5e418]: 尊享10大特权提升求职效率
+                - generic [ref=f5e419]: 去升级
+          - generic [ref=f5e420]:
+            - list [ref=f5e421]:
+              - listitem [ref=f5e422] [cursor=pointer]: 热门职位
+              - listitem [ref=f5e423] [cursor=pointer]: 热门城市
+              - listitem [ref=f5e424] [cursor=pointer]: 热门企业
+              - listitem [ref=f5e425] [cursor=pointer]: 附近城市
+            - generic [ref=f5e426]:
+              - link "深圳配送站长招聘" [ref=f5e427] [cursor=pointer]:
+                - /url: /c101280600-p240118/
+              - link "深圳总布置工程师招聘" [ref=f5e428] [cursor=pointer]:
+                - /url: /c101280600-p230111/
+              - link "深圳广告文案招聘" [ref=f5e429] [cursor=pointer]:
+                - /url: /c101280600-p140605/
+              - link "深圳投标专员招聘" [ref=f5e430] [cursor=pointer]:
+                - /url: /c101280600-p250110/
+              - link "深圳手机维修招聘" [ref=f5e431] [cursor=pointer]:
+                - /url: /c101280600-p290113/
+              - link "深圳切割工招聘" [ref=f5e432] [cursor=pointer]:
+                - /url: /c101280600-p300631/
+              - link "深圳焊接工程师招聘" [ref=f5e433] [cursor=pointer]:
+                - /url: /c101280600-p300315/
+              - link "深圳IT培训讲师招聘" [ref=f5e434] [cursor=pointer]:
+                - /url: /c101280600-p190406/
+              - link "深圳美甲美睫师招聘" [ref=f5e435] [cursor=pointer]:
+                - /url: /c101280600-p210608/
+              - link "深圳鞋类设计师招聘" [ref=f5e436] [cursor=pointer]:
+                - /url: /c101280600-p120615/
+              - link "深圳客户经理招聘" [ref=f5e437] [cursor=pointer]:
+                - /url: /c101280600-p140317/
+              - link "深圳安全评价师招聘" [ref=f5e438] [cursor=pointer]:
+                - /url: /c101280600-p300210/
+              - link "深圳光伏系统工程师招聘" [ref=f5e439] [cursor=pointer]:
+                - /url: /c101280600-p301002/
+              - link "深圳蛋糕/裱花师招聘" [ref=f5e440] [cursor=pointer]:
+                - /url: /c101280600-p290211/
+              - link "深圳后期制作招聘" [ref=f5e441] [cursor=pointer]:
+                - /url: /c101280600-p170606/
+              - link "深圳报关/报检员招聘" [ref=f5e442] [cursor=pointer]:
+                - /url: /c101280600-p240114/
+              - link "深圳环境采样/检测员招聘" [ref=f5e443] [cursor=pointer]:
+                - /url: /c101280600-p300905/
+              - link "深圳人力资源专员/助理招聘" [ref=f5e444] [cursor=pointer]:
+                - /url: /c101280600-p150104/
+              - link "深圳旅游顾问招聘" [ref=f5e445] [cursor=pointer]:
+                - /url: /c101280600-p280103/
+              - link "深圳政府关系招聘" [ref=f5e446] [cursor=pointer]:
+                - /url: /c101280600-p140112/
+          - list [ref=f5e448]:
+            - listitem [ref=f5e449]:
+              - link "深圳BOSS直聘招聘" [ref=f5e450] [cursor=pointer]:
+                - /url: /shenzhen/
+            - listitem [ref=f5e451]:
+              - link "深圳招聘" [ref=f5e452] [cursor=pointer]:
+                - /url: /c101280600/
+  - iframe
+  - iframe
+  - generic [ref=f5e453]:
+    - generic [ref=f5e454] [cursor=pointer]
+    - generic [ref=f5e455] [cursor=pointer]

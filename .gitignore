@@ -1,0 +1,26 @@
+browser_profile/
+.env
+__pycache__/
+*.pyc
+data/
+
+# 只屏蔽根目录下的joblist抓取结果json，不会屏蔽其他目录的配置json
+joblist-*.json
+
+# 文档目录里的大二进制文件，md文档保留
+docs/*.pdf
+docs/*.png
+docs/*.jpg
+docs/*.jpeg
+docs/*.gif
+docs/*.docx
+docs/*.xlsx
+# playwright mcp 运行缓存日志
+.playwright-mcp/
+# 可选：如果你不想上传cursor本地配置，取消下面这行注释
+# .cursor/
+# Playwright MCP运行日志、录制缓存，不要提交
+.playwright-mcp/
+
+# Cursor本地MCP连接配置（本地环境，不提交到仓库）
+.cursor/mcp.json

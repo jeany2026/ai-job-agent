@@ -1,0 +1,66 @@
+{
+  "hard_requirements_met": true,
+  "hard_requirement_gaps": [],
+  "capability_assessments": [
+    {
+      "dimension": "复杂业务系统设计",
+      "outcome": "transferable",
+      "job_requirement_ref": "复杂业务系统设计",
+      "candidate_capability_ref": "复杂业务系统设计",
+      "transfer_rationale": "支付清分结算中台与商户平台建设经验，可迁移到保险产品的复杂业务系统设计。",
+      "evidence": [
+        {
+          "quote": "主导从0到1建设商户平台",
+          "location_hint": "transferable_capabilities",
+          "field": "capability_assessments"
+        },
+        {
+          "quote": "复杂业务系统设计",
+          "location_hint": "core_requirements",
+          "field": "capability_assessments"
+        }
+      ]
+    }
+  ],
+  "business_fit": "moderate",
+  "technical_fit": "moderate",
+  "industry_fit": "weak",
+  "overall_fit": "moderate",
+  "risks": [
+    {
+      "risk": "无保险行业直接经验",
+      "severity": "medium",
+      "notes": "行业经验弱，但业务系统设计可迁移",
+      "evidence": [
+        {
+          "quote": "保险行业产品经验",
+          "location_hint": "industry_requirements",
+          "field": "risks"
+        }
+      ]
+    }
+  ],
+  "knowledge_gaps": [
+    {
+      "gap": "保险行业直接经验不足",
+      "severity": "medium",
+      "evidence": [
+        {
+          "quote": "保险行业产品经验",
+          "location_hint": "industry_requirements",
+          "field": "knowledge_gaps"
+        }
+      ],
+      "notes": "无行业直接经验不等于无岗位能力"
+    }
+  ],
+  "recommendation": "weak",
+  "rationale": "硬性学历与年限满足；保险行业无直接经验，但清分结算中台建设可迁移到复杂业务系统设计，因此弱推荐。",
+  "evidence_summary": [
+    {
+      "quote": "主导从0到1建设商户平台",
+      "location_hint": "transferable_capabilities",
+      "field": "evidence_summary"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "hard_requirements_met": true,
+  "hard_requirement_gaps": [],
+  "capability_assessments": [
+    {
+      "dimension": "产品规划",
+      "outcome": "direct",
+      "job_requirement_ref": "必须具备产品规划能力",
+      "candidate_capability_ref": "产品规划",
+      "transfer_rationale": null,
+      "evidence": [
+        {
+          "quote": "必须具备产品规划能力",
+          "location_hint": "hard_requirements",
+          "field": "capability_assessments"
+        },
+        {
+          "quote": "负责支付、清分、结算产品规划与平台建设",
+          "location_hint": "product_capabilities",
+          "field": "capability_assessments"
+        }
+      ]
+    }
+  ],
+  "business_fit": "strong",
+  "technical_fit": "moderate",
+  "industry_fit": "strong",
+  "overall_fit": "strong",
+  "risks": [],
+  "knowledge_gaps": [
+    {
+      "gap": "CRM经验未在候选人画像中出现",
+      "severity": "low",
+      "evidence": [
+        {
+          "quote": "有CRM经验优先",
+          "location_hint": "bonus_requirements",
+          "field": "knowledge_gaps"
+        }
+      ],
+      "notes": "JD加分项，非硬性"
+    }
+  ],
+  "recommendation": "yes",
+  "rationale": "候选人具备明示的产品规划与支付业务经验，学历与年限满足硬性要求，因此适合该岗位。",
+  "evidence_summary": [
+    {
+      "quote": "本科及以上学历",
+      "location_hint": "hard_requirements",
+      "field": "evidence_summary"
+    },
+    {
+      "quote": "负责支付、清分、结算产品规划与平台建设",
+      "location_hint": "product_capabilities",
+      "field": "evidence_summary"
+    }
+  ]
+}

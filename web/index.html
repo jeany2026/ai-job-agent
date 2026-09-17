@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Job Agent</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="/style.css?v=20260314-honest" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hero">
+        <p class="eyebrow">Job Search Agent</p>
+        <h1>你想让我帮你做什么？</h1>
+        <p class="lede">
+          直接用自然语言告诉我。简历、项目说明和其他材料都是这次输入的补充，不是另一条流程。
+        </p>
+      </header>
+
+      <section id="profile-panel" class="panel profile-panel">
+        <div class="block-head">
+          <h2>我的候选人画像</h2>
+          <p id="profile-meta" class="profile-meta"></p>
+        </div>
+        <p id="profile-empty" class="profile-empty">
+          还没有候选人画像。直接说明经历、能力或上传简历/项目资料；整理成功后会出现在这里，供后续匹配使用。
+        </p>
+        <div id="profile-body" hidden></div>
+      </section>
+
+      <section id="chat-panel" class="panel chat-panel" hidden>
+        <div class="block-head">
+          <h2>对话</h2>
+        </div>
+        <ol id="chat-log" class="chat-log" aria-live="polite"></ol>
+      </section>
+
+      <form id="entry-form" class="panel composer" novalidate>
+        <label class="sr-only" for="message-input">你想让我帮你做什么</label>
+        <textarea
+          id="message-input"
+          name="message"
+          rows="4"
+          maxlength="8000"
+          placeholder="告诉我你想找什么工作，也可以补充你的经历、能力、偏好或要求……"
+        ></textarea>
+
+        <div class="composer-bar">
+          <div class="attach-menu">
+            <button id="attach-toggle" type="button">添加材料</button>
+            <div id="attach-options" class="attach-options" hidden>
+              <button type="button" data-kind="resume">添加简历</button>
+              <button type="button" data-kind="project_document">添加项目资料</button>
+              <button type="button" data-kind="other_attachment">添加其他材料</button>
+            </div>
+          </div>
+          <input
+            id="file-input"
+            type="file"
+            hidden
+            accept=".pdf,.doc,.docx,.txt,.md,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,text/plain,text/markdown"
+          />
+          <button id="submit-btn" type="submit">发送</button>
+        </div>
+        <ul id="attach-list" class="attach-list" hidden></ul>
+        <p id="form-error" class="banner error" hidden></p>
+        <p id="form-note" class="banner ok" hidden></p>
+      </form>
+
+      <section id="run-panel" class="panel run-panel" hidden>
+        <h2 id="run-title">正在理解你的需求……</h2>
+        <p id="run-message" class="run-message"></p>
+        <div id="run-actions" class="gate-actions" hidden></div>
+        <ol id="stage-list" class="stages">
+          <li data-stages="PARSING_GOAL">理解你的需求</li>
+          <li data-stages="GATHERING_CANDIDATE">整理候选人背景</li>
+          <li data-stages="PLANNING,SEARCHING">搜索职位</li>
+          <li data-stages="ENRICHING_JOBS,ANALYZING">查看职位详情</li>
+          <li data-stages="MATCHING">分析匹配度</li>
+          <li data-stages="FILTERING,RANKING,REPORTING,DONE">整理结果</li>
+        </ol>
+      </section>
+
+      <section id="result-panel" class="result-panel" hidden></section>
+    </main>
+    <script src="/app.js?v=20260315-json"></script>
+  </body>
+</html>

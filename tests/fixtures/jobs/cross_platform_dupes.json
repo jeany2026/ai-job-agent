@@ -1,0 +1,93 @@
+{
+  "duplicate_pair": [
+    {
+      "platform": "boss",
+      "job_id": "boss-pay-1",
+      "job_url": "https://www.zhipin.com/job_detail/boss-pay-1.html",
+      "job_title": "高级产品经理",
+      "company_name": "支付科技有限公司",
+      "city": "深圳",
+      "salary": "25-40K"
+    },
+    {
+      "platform": "liepin",
+      "job_id": "lp-pay-99",
+      "job_url": "https://www.liepin.com/job/lp-pay-99",
+      "job_title": "高级产品经理",
+      "company_name": "支付科技",
+      "city": "深圳市",
+      "salary": "25-40K"
+    }
+  ],
+  "same_url_pair": [
+    {
+      "platform": "boss",
+      "job_id": "boss-shared-url",
+      "job_url": "https://example.com/jobs/shared-posting",
+      "job_title": "数据分析师",
+      "company_name": "示例数据公司",
+      "city": "上海"
+    },
+    {
+      "platform": "job51",
+      "job_id": "51-shared-url",
+      "job_url": "https://example.com/jobs/shared-posting/",
+      "job_title": "数据分析师",
+      "company_name": "示例数据公司",
+      "city": "上海"
+    }
+  ],
+  "not_duplicates": [
+    {
+      "platform": "boss",
+      "job_id": "boss-pm-senior",
+      "job_url": "https://www.zhipin.com/job_detail/boss-pm-senior.html",
+      "job_title": "高级产品经理",
+      "company_name": "支付科技有限公司",
+      "city": "深圳"
+    },
+    {
+      "platform": "liepin",
+      "job_id": "lp-pm-plain",
+      "job_url": "https://www.liepin.com/job/lp-pm-plain",
+      "job_title": "产品经理",
+      "company_name": "支付科技有限公司",
+      "city": "深圳"
+    },
+    {
+      "platform": "job51",
+      "job_id": "51-pm-gz",
+      "job_url": "https://jobs.51job.com/guangzhou/51-pm-gz",
+      "job_title": "高级产品经理",
+      "company_name": "支付科技有限公司",
+      "city": "广州"
+    }
+  ],
+  "incomplete": [
+    {
+      "platform": "boss",
+      "job_id": "boss-incomplete-a",
+      "job_url": "https://www.zhipin.com/job_detail/boss-incomplete-a.html",
+      "job_title": null,
+      "company_name": "支付科技有限公司",
+      "city": "深圳"
+    },
+    {
+      "platform": "liepin",
+      "job_id": "lp-incomplete-b",
+      "job_url": "https://www.liepin.com/job/lp-incomplete-b",
+      "job_title": null,
+      "company_name": "支付科技有限公司",
+      "city": "深圳"
+    }
+  ],
+  "unique_other": {
+    "platform": "job51",
+    "job_id": "51-pharmacist",
+    "job_url": "https://jobs.51job.com/shenzhen/51-pharmacist",
+    "job_title": "执业药师",
+    "company_name": "某大药房",
+    "city": "深圳",
+    "salary": "15-25K"
+  }
+}
